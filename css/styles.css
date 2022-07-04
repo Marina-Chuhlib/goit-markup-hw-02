@@ -1,0 +1,93 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+/* 
+ 
+ text h1  #FFFFFF;
+ button background: #2196F3; portfolio background: #F5F4FA; order-radius: 4px;
+ background next: #F5F4FA;
+*/
+.page {
+  background-color: #ffffff;
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Nav */
+.logo {
+  color: var(--accent-color);
+}
+.desc {
+  color: var(--title-text-color);
+}
+.nav-link {
+  color: var(--title-text-color);
+}
+.nav-link:hover,
+.contacts-link:hover,
+.nav-link:focus,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  color: var(--primary-text-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Sections */
+
+.sections-title {
+  color: var(--title-text-color);
+}
+
+.features {
+  color: var(--primary-text-color);
+}
+.features-title {
+  color: var(--title-text-color);
+}
+.profession {
+  color: var(--primary-text-color);
+}
+
+/* Button */
+.button.primary {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  color: #ffffff;
+}
+
+.mail-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
