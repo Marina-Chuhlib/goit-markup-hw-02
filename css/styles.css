@@ -4,15 +4,14 @@
   --accent-color: #2196f3;
 }
 
-/* 
- 
- text h1  #FFFFFF;
- button background: #2196F3; portfolio background: #F5F4FA; order-radius: 4px;
- background next: #F5F4FA;
-*/
 .page {
   background-color: #ffffff;
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -22,22 +21,48 @@
 /* Nav */
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  word-spacing: -6px;
 }
 .desc {
-  color: var(--title-text-color);
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  word-spacing: -6px;
 }
 .nav-link {
   color: var(--title-text-color);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
+
 .nav-link:hover,
 .contacts-link:hover,
 .nav-link:focus,
 .contacts-link:focus {
   color: var(--accent-color);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link.current {
+  color: var(--accent-color);
 }
 
 .contacts-link {
   color: var(--primary-text-color);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 /* Hero */
 .hero {
@@ -46,12 +71,23 @@
 
 .hero-title {
   color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Sections */
 
-.sections-title {
+.section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .features {
@@ -59,7 +95,17 @@
 }
 .features-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+.text {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .profession {
   color: var(--primary-text-color);
 }
@@ -68,26 +114,84 @@
 .button.primary {
   color: #ffffff;
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.85;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
+
 .button.secondary {
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button.secondary:hover,
 .button.secondary:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section.our-teem {
+  background-color: #f5f4fa;
+}
+
+.team {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+.link {
+  text-decoration: none;
+}
+
+.img-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.img-desc {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* Footer */
+.desc-footer {
+  color: #ffffff;
+}
 .footer {
   background-color: #2f303a;
 }
 
 .adress {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 
 .mail-tel {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
