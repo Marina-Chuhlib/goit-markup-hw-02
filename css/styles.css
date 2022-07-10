@@ -2,6 +2,11 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --accent-background-color: #2f303a;
+  --mail-tel-color: rgba(255, 255, 255, 0.6);
 }
 
 .page {
@@ -10,7 +15,6 @@
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
@@ -45,7 +49,9 @@
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+.nav-link {
+  cursor: pointer;
+}
 .nav-link:hover,
 .contacts-link:hover,
 .nav-link:focus,
@@ -66,11 +72,11 @@
 }
 /* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--accent-background-color);
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -111,8 +117,8 @@
 }
 
 /* Button */
-.button.primary {
-  color: #ffffff;
+.modal-button {
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
   font-size: 16px;
@@ -123,10 +129,20 @@
   text-align: center;
   letter-spacing: 0.06em;
 }
+.modal-button {
+  cursor: pointer;
+}
+.modal-button:hover,
+.modal-button:focus {
+  background-color: var(--secondary-accent-color);
+}
 
 .button.secondary {
+  cursor: pointer;
+}
+.button.secondary {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -134,7 +150,7 @@
 }
 .button.secondary:hover,
 .button.secondary:focus {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-size: 16px;
   line-height: 1.62;
@@ -143,7 +159,7 @@
 }
 
 .section.our-teem {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 
 .team {
@@ -174,14 +190,16 @@
 
 /* Footer */
 .desc-footer {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--accent-background-color);
 }
-
+address {
+  font-style: normal;
+}
 .adress {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -189,7 +207,7 @@
 }
 
 .mail-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--mail-tel-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
