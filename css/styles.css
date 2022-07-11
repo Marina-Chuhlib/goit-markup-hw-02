@@ -161,6 +161,7 @@
 .team,
 .profession {
   font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -170,6 +171,11 @@
 }
 
 /* Portfolio */
+.advantage,
+.portfolio {
+  position: absolute;
+  top: -100%;
+}
 .link {
   text-decoration: none;
 }
